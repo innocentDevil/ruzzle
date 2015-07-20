@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* jayesh CSS Document */
+
+@font-face {
+  font-family: "helvetica";
+  src: url('helvetica.eot'); 
+  src: url('helvetica.eot?#iefix') format('embedded-opentype'), 
+       url('helvetica.woff') format('woff'), 
+       url('helvetica.ttf')  format('truetype');      
+}
+
+
+body {  font-family: "helvetica"; font-size:15px; color:#000000; background:#000;}
+h1, h2, h3, h4, h5, h6, ul, form, body { padding:0px; margin:0px;}
+
+a { text-decoration:none; color:#bf360c}
+a:hover { text-decoration:none; color: #000}
+
+.colorblack { color:#000000;}
+.colorwhite { color:#FFFFFF}
+
+.bgblack { background: #000000}
+.bgwhite { background:#FFFFFF;}
+
+.header, .maincontainer, .footer { padding:15px; border-bottom:1px  dashed #ccc; color:#FFFFFF; text-transform:capitalize}
+.footer { border-bottom:0px;}
